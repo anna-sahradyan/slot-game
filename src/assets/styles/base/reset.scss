@@ -1,0 +1,45 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+a, a:visited, a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+body, figure, blockquote, dl, dd, ul, ol, li, p {
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+p + p {
+  margin-top: 1em;
+}
+
+ul {
+  list-style: none;
+}
+
+img, svg, video {
+  max-width: 100%;
+  display: inline-block;
+  height: auto;
+  vertical-align: top;
+  object-fit: cover;
+}
+button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
