@@ -187,11 +187,11 @@ export async function initSlotGame(container) {
     }
 
     function animateWinningSymbols() {
+        const middleRow = 1;
         for (let i = 0; i < reels.length; i++) {
             const reel = reels[i];
             const symbolIndex = Math.floor(reel.position) % reel.symbols.length;
-            const symbol = reel.symbols[(symbolIndex + 1) % reel.symbols.length];
-
+            const symbol = reel.symbols[(symbolIndex + middleRow) % reel.symbols.length];
             const startTime = Date.now();
             const duration = 1000;
             const originalScale = symbol.scale.x;
@@ -212,6 +212,7 @@ export async function initSlotGame(container) {
             app.ticker.add(tickerFn);
         }
     }
+
 
     function randomItem(arr) {
         return arr[Math.floor(Math.random() * arr.length)];
