@@ -38,7 +38,7 @@ Fortune Tiger Slot Review & Free Demo</h1>
          <span class="main__rating">User Rating: 8.4/10 (16 votes)</span>
     </div>
    
-    <button class="main__btn"><img src="/src/assets/images/message.svg" alt="message" width="16" height="16">write a comment</button>
+    <button class="main__btn"><img src="/images/message.svg" alt="message" width="16" height="16">write a comment</button>
 </section>
  
     `;

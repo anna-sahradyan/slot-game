@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  slot:
+    image: slot-game:v2
+    build:
+      context: .
+    ports:
+      - "8081:8081"

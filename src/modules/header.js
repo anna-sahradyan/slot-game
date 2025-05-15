@@ -19,20 +19,20 @@ export function createHeader() {
                 class="header__input"
         >
         <button class="header__button" type="submit" aria-label="Search">
-            <img src="/src/assets/images/search.svg" alt="Search Icon" width="24" height="24">
+            <img src="/images/search.svg" alt="Search Icon" width="24" height="24">
         </button>
     </form>
      <div class="header__lang">
         <div class="header__lang-icon" role="button" aria-label="Compare">
-            <img src="/src/assets/images/compare.png" alt="Compare" class="icon">
+            <img src="/images/compare.png" alt="Compare" class="icon">
             <span class="header__spanCom" aria-live="polite">0</span>
         </div>
         <div class="header__lang-icon" role="button" aria-label="Language selection">
-            <img src="/src/assets/images/flag.svg" alt="Language">
+            <img src="/images/flag.svg" alt="Language">
             <span class="icon__lan">[en]</span>
         </div>
         <div class="header__lang-icon" role="button" aria-label="Login">
-            <img src="/src/assets/images/lock.svg" alt="Login">
+            <img src="/images/lock.svg" alt="Login">
         </div>
     </div>
 </div>

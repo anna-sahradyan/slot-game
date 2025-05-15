@@ -86,7 +86,7 @@ export async function initSlotGame(container) {
     spinBtn.className = 'slot-spin-btn';
     spinBtn.innerHTML = `
         <span class="spinner-icon">
-            <img src="/src/assets/images/spinner.svg" alt="spinner">
+            <img src="/images/spinner.svg" alt="spinner">
         </span>
     `;
 
@@ -123,7 +123,7 @@ export async function initSlotGame(container) {
             spinBtn.textContent = '';
             spinBtn.innerHTML = `
         <span class="spinner-icon">
-            <img src="/src/assets/images/spinner.svg" alt="spinner">
+            <img src="/images/spinner.svg" alt="spinner">
         </span>
         `;
         }

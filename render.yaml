@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: slot-game:v2
+    buildCommand: docker build -t slot-game:v2 .
+    startCommand: docker run -p 8081:8081 slot-game:v2 .
